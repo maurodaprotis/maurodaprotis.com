@@ -1,0 +1,11 @@
+{
+  "extends": ["@remix-run/eslint-config", "@remix-run/eslint-config/jest", "prettier"],
+  "plugins": ["prettier"],
+  "rules": {
+    "no-console": "warn",
+    "prettier/prettier": "error",
+    "arrow-body-style": "off",
+    "prefer-arrow-callback": "off",
+    "react/self-closing-comp": "error"
+  }
+}

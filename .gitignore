@@ -1,6 +1,8 @@
 node_modules
 
 /.cache
-/server/build
+/build
 /public/build
+/package-lock.json
+/yarn.lock
 .env
